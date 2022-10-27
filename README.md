@@ -2,9 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
-## Development server
+## Env values
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Create a .env file in the root of the project with contentful access token. Eg CONTENTFUL_TOKEN="xxxx"
+
+## Test-1
+
+Output of this problem can be seen by starting the dev server with `ng serve` and navigating to `http://localhost:4200/triangle`.
+
+## Test-2
+
+Output of this problem can be seen by starting the dev server with `ng serve` and navigating to `http://localhost:4200/`
 
 ## Code scaffolding
 

@@ -1,0 +1,45 @@
+/*********** Rogers header ************************/
+.rcl-navmain {
+	position: relative;
+	z-index: 10;
+	background: hsla(0,0%,100%,.95);
+	box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 10%);
+	width: 100%;
+}
+
+
+.rcl-header:not(.-focused) {
+	transition: all .6s cubic-bezier(.4,0,.2,1);
+	transform: translateZ(0);
+}
+
+
+.rcl-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+}
+
+.l-headerDesk {
+	display: block;
+}
+
+
+.rcl-header:not(.-focused) .rcl-navmain-inner {
+	height: 100px;
+	transition: all .6s cubic-bezier(.4,0,.2,1);
+}
+
+
+.rcl-navmain .rcl-navmain-inner {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	padding: 0 24px;
+	max-width: 1200px;
+	height: 100px;
+	margin: auto;
+	justify-content: space-between;
+}
+

@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Ted Next SemiBold';
+  src: url('https://assets.rogers-assets.com/rogers/fonts/TedNext-SemiBold.ttf?MS4xMi4z');
+}
+
+@font-face {
+  font-family: 'Ted Next Bold';
+  src: url('https://assets.rogers-assets.com/rogers/fonts/TedNext-Bold.ttf?MS4xMi4z');
+}
+
+@font-face {
+  font-family: 'Ted Next Light';
+  src: url('https://assets.rogers-assets.com/rogers/fonts/TedNext-Light.ttf?MS4xMi4z');
+}
+
+@font-face {
+  font-family: 'Ted Next';
+  src: url('https://assets.rogers-assets.com/rogers/fonts/TedNext.ttf?MS4xMi4z');
+}
+
+* {
+	font-family: "Ted Next";
+}

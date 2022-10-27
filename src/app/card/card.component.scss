@@ -1,0 +1,34 @@
+
+
+
+.card {
+	border-color: #e9e9e9;
+}
+.card-body {
+	.title {
+		font-weight: 900;
+		line-height: 1.3;
+		margin-bottom: 1.6rem;
+		}
+		
+		a {
+		font-family:'Ted Next SemiBold';
+		color: #2f6fa7;
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: underline;
+		}
+		}
+
+		.bg-secondary {
+			background-color: #e9e9e9 !important;
+		}
+
+		.badge {
+			color: black;
+			font-size: 14px;
+			font-weight: 500;
+		}
+}
+

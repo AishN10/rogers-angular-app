@@ -1,0 +1,23 @@
+<div class="header">
+  <div class="rcl-navmain">
+    <div class="rcl-navmain-inner">
+      <div class="rcl-header-brand">
+        <a tabindex="0" class="rcl-logo" title="Rogers"
+          ><img
+            width="190"
+            height="39"
+            class="rcl-icon-logo"
+            src="https://images.ctfassets.net/8utyj17y1gom/2JXnJrw79KkQOiOMia8Au2/9cbfc2fda65fa5a2127d5b0668d84765/rogers-brand.png"
+            alt="Rogers"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="main-content mt-5">
+    <div *ngFor="let data of page">
+     <app-card title="{{data.title}}" tag="{{ data.category[1] +' - '+ data.category[2]}}" url="{{data.url}}" subText="{{data.description}}"></app-card>
+  </div>
+  </div>
+</div>
